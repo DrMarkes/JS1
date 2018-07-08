@@ -3,11 +3,11 @@ let petrPoints = 12;
 
 let win = '';
 
-if(fedorPoints > 21) {
+if (fedorPoints > 21) {
     win = "Петр";
-} else if(petrPoints > 21) {
+} else if (petrPoints > 21) {
     win = "Федор";
-} else if(fedorPoints >= petrPoints) {
+} else if (fedorPoints >= petrPoints) {
     win = "Федор";
 } else {
     win = "Петр";

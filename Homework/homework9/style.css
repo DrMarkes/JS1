@@ -1,0 +1,38 @@
+body {
+    background-color: #efefef;
+}
+
+section {
+    width: 600px;
+    margin: 60px auto;
+    background: none;
+}
+
+.categories,.films {
+    border: 1px #ddd solid;
+    background-color: white;
+    margin: 15px 0;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.category {
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.category:hover {
+    background-color: rgba(221, 221, 230, 0.5);
+}
+
+.film {
+    margin: 20px 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px #333 dotted;
+}

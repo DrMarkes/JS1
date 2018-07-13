@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Киноучет</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            categories.forEach(category => {
+                const newEl = document.createElement("div");
+                newEl.classList.add("category");
+                newEl.innerText = category;
+                newEl.addEventListener("click", () => onCategoryChoice(category));
+                document.querySelector(".categories").appendChild(newEl);
+            });
+        });
+    </script>
+</head>
+<body>
+<section>
+    <div class="categories"></div>
+    <div class="films"></div>
+</section>
+</body>
+</html>

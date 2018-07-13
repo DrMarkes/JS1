@@ -36,3 +36,62 @@ section {
     padding-left: 5px;
     border-bottom: 1px #333 dotted;
 }
+
+.film-name {
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.film-name:hover {
+    margin-bottom: 7px;
+    border-bottom: 3px double rgba(221, 221, 230, 0.5);
+}
+
+.film-comment {
+    color: #333333;
+}
+
+.author {
+    font-weight: 700;
+}
+
+.film button {
+    width: 200px;
+    padding: 6px;
+    font-size: 12px;
+    color: #333;
+    margin: 20px auto 10px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.comment-form {
+    width: 400px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.comment-form input {
+    margin: 10px 5px 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    color: #333;
+    width: 100px;
+}
+
+input.form-comment {
+    width: 200px;
+}
+
+.chosen {
+    padding: 14px;
+    border: 4px dotted #ecc;
+}
+
+.comment-form button {
+    margin-top: 5px;
+}
